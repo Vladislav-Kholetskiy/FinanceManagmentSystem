@@ -36,7 +36,7 @@
 1. **Клонируйте репозиторий**:
 
    ```bash
-   git clone <URL-репозитория>
+   git clone https://github.com/Vladislav-Kholetskiy/FinanceManagmentSystem.git
 
 2. **Соберите проект**:
    Убедитесь, что у вас установлен Java 11 или выше. Используйте IDE (например, IntelliJ IDEA) или терминал для сборки проекта.
@@ -46,8 +46,7 @@
 
    ```bash
    java -cp target/FinanceManagementSystem.jar org.example.Main
-
-   
+   ```
    ## Использование консольного меню
 
 ### Пример использования
