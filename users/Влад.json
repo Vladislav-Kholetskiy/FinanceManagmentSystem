@@ -1,0 +1,71 @@
+{
+  "username" : "Влад",
+  "password" : "12345",
+  "wallet" : {
+    "balance" : -2000.0,
+    "transactions" : [ {
+      "type" : "INCOME",
+      "amount" : 20000.0,
+      "category" : "Зарплата"
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 1000.0,
+      "category" : "Еда"
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 2000.0,
+      "category" : "Транспорт"
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 1000.0,
+      "category" : "Еда"
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 18000.0,
+      "category" : "Обучение"
+    }, {
+      "type" : "INCOME",
+      "amount" : 10000.0,
+      "category" : "Зарплата"
+    }, {
+      "type" : "EXPENSE",
+      "amount" : 10000.0,
+      "category" : "Ком.услуги"
+    } ],
+    "expenseCategories" : {
+      "Еда" : {
+        "name" : "Еда",
+        "limit" : 1000.0,
+        "spent" : 2000.0,
+        "remaining" : -1000.0,
+        "overBudget" : true
+      },
+      "Обучение" : {
+        "name" : "Обучение",
+        "limit" : 18000.0,
+        "spent" : 18000.0,
+        "remaining" : 0.0,
+        "overBudget" : false
+      },
+      "Транспорт" : {
+        "name" : "Транспорт",
+        "limit" : 1000.0,
+        "spent" : 2000.0,
+        "remaining" : -1000.0,
+        "overBudget" : true
+      },
+      "Ком.услуги" : {
+        "name" : "Ком.услуги",
+        "limit" : 10000.0,
+        "spent" : 10000.0,
+        "remaining" : 0.0,
+        "overBudget" : false
+      }
+    },
+    "incomeCategories" : {
+      "Зарплата" : {
+        "name" : "Зарплата"
+      }
+    }
+  }
+}
